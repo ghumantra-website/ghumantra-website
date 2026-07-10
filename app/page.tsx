@@ -1,3 +1,5 @@
+import WhyChooseUs from "@/components/home/WhyChooseUs";
+import TrendingPackages from "@/components/home/TrendingPackages";
 import Navbar from "@/components/layout/Navbar";
 import Hero from "@/components/home/Hero";
 import FeaturedDestinations from "@/components/home/FeaturedDestinations";
@@ -8,6 +10,8 @@ export default function Home() {
       <Navbar />
       <Hero />
       <FeaturedDestinations />
+      <WhyChooseUs />
+      <TrendingPackages />
     </>
   );
 }
