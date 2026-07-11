@@ -1,4 +1,5 @@
 import WhyChooseUs from "@/components/home/WhyChooseUs";
+import TravelStats from "@/components/home/TravelStats";
 import TrendingPackages from "@/components/home/TrendingPackages";
 import WhatsAppButton from "@/components/common/WhatsAppButton";
 import Navbar from "@/components/layout/Navbar";
@@ -14,8 +15,10 @@ export default function Home() {
       <FeaturedDestinations />
       <WhyChooseUs />
       <TrendingPackages />
-      <WhatsAppButton />
+      <TravelStats />
       <Footer />
+      <WhatsAppButton />
+      
     </>
   );
 }
