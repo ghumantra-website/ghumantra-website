@@ -8,6 +8,7 @@ import Footer from "@/components/layout/Footer";
 import Hero from "@/components/home/Hero";
 import CtaBanner from "@/components/home/CtaBanner";
 import FAQ from "@/components/home/FAQ";
+import TrustedPartners from "@/components/home/TrustedPartners";
 import FeaturedDestinations from "@/components/home/FeaturedDestinations";
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       <CtaBanner />
       <FAQ />
       <TravelStats />
+      <TrustedPartners />
       <Footer />
       <WhatsAppButton />
       
