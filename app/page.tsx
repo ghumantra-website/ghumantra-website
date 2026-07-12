@@ -6,6 +6,7 @@ import WhatsAppButton from "@/components/common/WhatsAppButton";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import Hero from "@/components/home/Hero";
+import CtaBanner from "@/components/home/CtaBanner";
 import FeaturedDestinations from "@/components/home/FeaturedDestinations";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
       <WhyChooseUs />
       <TrendingPackages />
       <Testimonials />
+      <CtaBanner />
       <TravelStats />
       <Footer />
       <WhatsAppButton />
