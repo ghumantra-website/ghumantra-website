@@ -9,6 +9,7 @@ import Hero from "@/components/home/Hero";
 import CtaBanner from "@/components/home/CtaBanner";
 import FAQ from "@/components/home/FAQ";
 import TrustedPartners from "@/components/home/TrustedPartners";
+import Newsletter from "@/components/home/Newsletter";
 import FeaturedDestinations from "@/components/home/FeaturedDestinations";
 
 export default function Home() {
@@ -24,6 +25,7 @@ export default function Home() {
       <FAQ />
       <TravelStats />
       <TrustedPartners />
+      <Newsletter />
       <Footer />
       <WhatsAppButton />
       
