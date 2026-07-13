@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -13,11 +14,15 @@ export default function Navbar() {
         />
 
         <div className="hidden md:flex items-center gap-8 font-medium text-white">
-          <a href="#">Home</a>
-          <a href="#">Domestic</a>
-          <a href="#">International</a>
-          <a href="#">Hotels</a>
-          <a href="#">Contact</a>
+          <Link href="/">Home</Link>
+
+<Link href="/domestic">Domestic</Link>
+
+<Link href="/international">International</Link>
+
+<Link href="/hotels">Hotels</Link>
+
+<Link href="/contact">Contact</Link>
         </div>
       </div>
     </nav>
